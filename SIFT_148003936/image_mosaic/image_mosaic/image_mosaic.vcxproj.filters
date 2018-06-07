@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="imgfeatures.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kdtree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="minpq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sift.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="xform.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imgfeatures.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kdtree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="minpq.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sift.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="xform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_calib3d2413.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_calib3d2413d.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_contrib2413.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_contrib2413d.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_core2413.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_core2413d.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_features2d2413.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_features2d2413d.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_flann2413.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_flann2413d.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_gpu2413.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_gpu2413d.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_highgui2413.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_highgui2413d.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_imgproc2413.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_imgproc2413d.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_legacy2413.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_legacy2413d.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_ml2413.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_ml2413d.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_nonfree2413.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_nonfree2413d.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_objdetect2413.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_objdetect2413d.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_ocl2413.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_ocl2413d.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_photo2413.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_photo2413d.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_stitching2413.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_stitching2413d.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_superres2413.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_superres2413d.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_ts2413.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_ts2413d.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_video2413.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_video2413d.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_videostab2413.lib" />
+    <Library Include="D:\opencv\build\x86\vc12\lib\opencv_videostab2413d.lib" />
+  </ItemGroup>
+</Project>

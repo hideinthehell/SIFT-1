@@ -1,0 +1,2 @@
+image_mosaic文件夹内的程序:提取了SIFT特征，进行匹配，然后进行图像拼接。
+其中SIFT算法和RANSAC算法都是利用的RobHess的SIFT源码。
